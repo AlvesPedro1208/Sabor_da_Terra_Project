@@ -1,0 +1,284 @@
+.div-seach {
+    position: relative;
+    height: 4em;
+    width: 60em;
+    border-radius: 50px;
+    border: 4px solid #ffffff;
+    background-color: #0d522c;
+    
+}
+
+.text-seach {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin: 0.55em 0em 1em 0.4em;
+}
+
+.icon-seach {
+    height: 2.7em;
+    width: 2.7em;
+    position: absolute;
+    right: 0.5em;
+    top: 0.4em;
+    cursor: pointer;
+    transition: transform 0.3s ease, height 0.3s ease, width 0.3s ease;
+    z-index: 2;
+}
+
+.icon-seach:hover {
+    transform: scale(1.1);
+}
+
+.search-bar {
+    position: absolute;
+    right: 0; /* Posiciona a barra de pesquisa começando à direita */
+    top: 50%;
+    transform: translateY(-50%) scaleX(0); /* Inicialmente invisível e comprimida horizontalmente */
+    transform-origin: right; /* Define o ponto de origem da animação à direita */
+    right: 0.8em;
+    width: calc(100% - 9.2em); /* Tamanho total menos o espaço da lupa */
+    height: 2.7em;
+    padding: 0.5em;
+    border-radius: 50px;
+    background-color: white;
+    transition: transform 0.5s ease; /* Animação suave da expansão */
+    opacity: 0; /* Invisível até ser ativada */
+    z-index: 1;
+}
+
+.search-bar.show {
+    transform: translateY(-50%) scaleX(1); /* Expande a barra horizontalmente */
+    opacity: 0.8; /* Mostra a barra */
+}
+
+/* EDIÇÕES NO CAROUSEL */
+
+.group-card {
+   padding-right: 53.95em;
+   margin-left: -18.5em;
+   margin-top: 2em;
+   border-radius: 50px;
+   border: 4px solid #ffffff;
+   background-color: #0d522c;
+
+}
+
+.group-card-body {
+    position: relative;
+    height: 12em;
+    width: 53.5em ;
+    margin-top: 1.4em;
+    margin-left: 6em;
+}
+
+.group-card-body-title {
+    color: #be772b;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    margin-left: -4em;
+}
+
+.group-card-body-subtitle {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    padding-top: 1em;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: -10em;
+    text-align: center;
+}
+
+
+/*AJUSTA OS BOTOES DE NAVEGAÇÃO DO CAROUSEL*/
+
+.carousel .carousel-control-prev, 
+.carousel .carousel-control-next {
+    width: 2.5em; /* Ajusta a largura dos botões de navegação */
+    height: 2.5em;
+    border-radius: 100%;
+    top: 52%; /* Centraliza verticalmente as setas */
+    transform: translateY(-50%); /* Ajuste fino para centralização */
+}
+
+.carousel-indicators {
+    bottom: -50px; /* Ajusta a posição dos indicadores para mais perto da parte inferior */
+    justify-content: center; /* Centraliza os indicadores horizontalmente */
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #0d522c; /* Cor verde para os círculos */
+    border-radius: 50%; /* Deixa os indicadores redondos */
+    width: 10px;
+    height: 10px;
+    margin: 0 5px; /* Espaçamento entre os indicadores */
+}
+
+
+/* MENU VEGETAL */
+.div-vegetal-menu {
+    position: relative;
+    margin-top: 4em;
+    height: 4em;
+    width: 60em;
+    border-radius: 50px;
+    border: 4px solid #ffffff;
+    background-color: #0d522c;
+}
+
+.text-vegetal-menu {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin: 0.55em 0em 1em 0.4em;
+}
+
+.three-points-icon {
+    height: 2.7em;
+    width: 2.7em;
+    position: absolute;
+    right: 1em;
+    top: 0.4em;
+}
+
+.div-item-vegetal-menu {
+    background-color: #ccdbd3;
+    margin: 2em 1em 1em 1em;
+    height: 20em;
+    width: 16.8em;
+    border-radius: 25px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card-item-vegetal-menu {
+    margin: 0.6em 0em 0em 0em;
+    padding: 2em 2em 15em 2em;
+    border-radius: 15px;
+    align-items: center;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* IMAGENS DOS CARDS */
+
+.MilhoVerdeImg {
+    height: 14em;
+    width: 126%;
+    border-radius: 15px;
+    margin-bottom: -12.5em;
+    margin-top: -1.5em;
+}
+
+.feijaoCariocaImg {
+    height: 14em;
+    border-radius: 15px;
+    margin-bottom: -12.5em;
+    margin-top: -1.5em;
+}
+
+.arrozBrancoImg {
+    height: 14em;
+    border-radius: 15px;
+    margin-bottom: -12.5em;
+    margin-top: -1.5em;
+}
+
+/* TEXTOS INTERNOS DOS CARD */
+
+.text-cad-vegetal-one {
+    margin-top: 13.5em;
+    margin-bottom: -13.5em;
+}
+
+.text-cad-vegetal-two {
+    margin-top: 13.5em;
+    margin-bottom: -13.5em;
+}
+
+.text-cad-vegetal-three {
+    margin-top: 13.5em;
+    margin-bottom: -13.5em;
+}
+
+/* MENU ANIMAL */
+.div-animal-menu {
+    position: relative;
+    margin-top: 3em;
+    height: 4em;
+    width: 60em;
+    border-radius: 50px;
+    border: 4px solid #ffffff;
+    background-color: #0d522c;
+}
+
+.text-animal-menu {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin: 0.55em 0em 1em 0.4em;
+}
+
+.three-points-icon {
+    height: 2.7em;
+    width: 2.7em;
+    position: absolute;
+    right: 1em;
+    top: 0.4em;
+}
+
+.div-item-animal-menu {
+    background-color: #ccdbd3;
+    margin: 2em 1em 1em 1em;
+    height: 20em;
+    width: 26.3em;
+    border-radius: 25px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card-item-animal-menu {
+    margin: 0.6em 0em 0em 0em;
+    padding: 2em 2em 15em 2em;
+    border-radius: 15px;
+    align-items: center;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/* TEXTOS INTERNOS DOS CARD */
+
+.text-cad-animal-one {
+    font-size: 20px;
+    margin-top: 11em;
+    margin-bottom: -11.2em;
+}
+
+.text-cad-animal-two {
+    font-size: 20px;
+    margin-top: 11em;
+    margin-bottom: -11.2em;
+}
+
+/* IMAGENS DOS CARDS */
+
+.CostelaBovinaImg {
+    height: 14em;
+    width: 114%;
+    border-radius: 15px;
+    margin-bottom: -12.5em;
+    margin-top: -1.5em;
+}
+
+.OvoCaipiraImg{
+    height: 14em;
+    width: 114%;
+    border-radius: 15px;
+    margin-bottom: -12.5em;
+    margin-top: -1.5em;
+}

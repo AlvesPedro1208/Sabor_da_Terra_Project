@@ -1,0 +1,7 @@
+.App {
+  text-align: center;
+}
+
+html, body, div#root, div.layout-container {
+  height: 100%;
+}
