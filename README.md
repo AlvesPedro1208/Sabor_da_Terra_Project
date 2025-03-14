@@ -6,10 +6,14 @@ O Sabor da Terra é uma aplicação inovadora desenvolvida para solucionar o pro
 ## 🎯 Objetivo do Projeto
 O projeto busca reduzir a dificuldade de acesso a alimentos saudáveis e acessíveis, permitindo que os clientes comprem produtos diretamente dos produtores rurais sem burocracia ou intermediários. Isso gera benefícios como:
 
-✅ Preços mais baixos para os consumidores, já que elimina intermediários.
-✅ Maior lucro para os agricultores, que negociam diretamente seus produtos.
-✅ Apoio ao comércio local, priorizando produtos de produtores próximos.
-✅ Acesso a alimentos de melhor qualidade, frescos e produzidos na região.
+- Preços mais baixos para os consumidores, já que elimina intermediários.
+- Maior lucro para os agricultores, que negociam diretamente seus produtos.
+- Apoio ao comércio local, priorizando produtos de produtores próximos.
+- Acesso a alimentos de melhor qualidade, frescos e produzidos na região.
+
+## 🎥 Demonstração
+
+[![Assista ao Vídeo](https://img.youtube.com/vi/DKvtrd0x8_s/0.jpg)](https://www.youtube.com/watch?v=DKvtrd0x8_s)
 
 ## 🚀 Funcionalidades
 - Perfil do Agricultor: Página dedicada ao agricultor, onde é possível visualizar avaliações, verificar produtos à venda e gerenciar seu perfil.
