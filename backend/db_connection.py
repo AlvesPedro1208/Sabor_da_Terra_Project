@@ -1,13 +1,12 @@
 import oracledb
 
-
 # Função para criar a conexão com o banco de dados
 def create_connection():
     try:
         conn = oracledb.connect(
-            user="rm558897",
-            password="fiap24",
-            dsn="oracle.fiap.com.br:1521/ORCL"
+            user="XXXXXXXX",
+            password="XXXXXXXXX",
+            dsn="XXXXXXXXXXXXXXXXXXXXXXXXX"
         )
         return conn
     except oracledb.DatabaseError as e:

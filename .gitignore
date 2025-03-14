@@ -1,0 +1,35 @@
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+venv/
+.env
+
+# Logs e arquivos temporários
+*.log
+
+# Dependências do Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Build do projeto (gerado automaticamente)
+dist/
+build/
+
+# Cache do Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Arquivos do sistema operacional
+Thumbs.db
+.DS_Store
+
+# Arquivos de lock
+package-lock.json
+package.json
+yarn.lock
